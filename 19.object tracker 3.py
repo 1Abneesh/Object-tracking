@@ -122,5 +122,5 @@ class ObjectTracker:
         if self.video_handle.isOpened():
             self.video_handle.release()
 
-ot = ObjectTracker('d:/Baby/Motion tracker.mp4')
+ot = ObjectTracker('d:/Study/Motion tracker.mp4')
 ot.play_and_track()
